@@ -10,13 +10,14 @@
 
 /* Título principal */
 .h1_home {
-  font-size: 3em;
+  padding-top: 20px;
+  font-size: 6em;
   color: var(--primary-color);
   margin-bottom: 10px;
 }
 
 .p_home {
-  font-size: 1.5em;
+  font-size: 3em;
   color: var(--secondary-color);
   margin-bottom: 20px;
 }
@@ -44,20 +45,20 @@
 }
 
 .h2_banner {
-  font-size: 2.5em;
+  font-size: 4rem;
   color: white;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .p_banner {
-  font-size: 1.2em;
+  font-size: 2rem;
   color: white;
   margin-bottom: 15px;
 }
 
-/* Botones */
 .div_button_hero {
+  padding: 20px;
   display: flex;
   gap: 20px;
 }

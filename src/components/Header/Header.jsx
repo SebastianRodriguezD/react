@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
   return (
     <header>
-      <Link to='/home'>
+      <Link to='/'>
         <img
           className='logo'
           src='https://www.yugioh-card.com/en/wp-content/uploads/2020/09/TCG_logo_500x500.png'
@@ -15,7 +15,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to='/home'>Home</NavLink>
+            <NavLink to='/'>Home</NavLink>
           </li>
           <li>
             <NavLink to='/cards'>Cards</NavLink>
