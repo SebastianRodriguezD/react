@@ -1,0 +1,68 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0px;
+}
+
+.card_game {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card_game img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.card-back {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.flipped .card-back {
+  display: none;
+}
+
+.victories-counter {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.game-won-message {
+  font-size: 2rem;
+  color: #4caf50;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 535px) {
+  .card_game {
+    position: relative;
+    width: 80px;
+    height: 120px;
+    overflow: hidden;
+  }
+  .game-board {
+    flex-wrap: wrap;
+
+    gap: 5px;
+    padding: 50px 0px;
+  }
+}

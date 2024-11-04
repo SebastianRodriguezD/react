@@ -1,0 +1,95 @@
+/* Contenedor principal del Home */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Título principal */
+.h1_home {
+  font-size: 3em;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.p_home {
+  font-size: 1.5em;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+/* Banner y contenedor de texto */
+.div_banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.h2_banner {
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.p_banner {
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Botones */
+.div_button_hero {
+  display: flex;
+  gap: 20px;
+}
+
+.button_cards,
+.button_game {
+  padding: 15px 25px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .h1_home {
+    font-size: 2em;
+  }
+
+  .p_home {
+    font-size: 1.2em;
+  }
+
+  .h2_banner {
+    font-size: 1.8em;
+  }
+
+  .p_banner {
+    font-size: 1em;
+  }
+
+  .button_cards,
+  .button_game {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}

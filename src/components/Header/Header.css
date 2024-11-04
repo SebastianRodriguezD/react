@@ -1,0 +1,47 @@
+header {
+  height: 12svh;
+  box-shadow: 0px 7px 26px -22px var(--pr11-color-3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+  height: 200px;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+header nav {
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10svh;
+}
+
+header a {
+  color: var(--pr11-color-2);
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+header a.active {
+  border-bottom: 3px solid var(--pr11-color-1);
+}
+
+@media screen and (max-width: 535px) {
+  header nav {
+    display: none;
+  }
+
+  header {
+    height: 15svh;
+  }
+}

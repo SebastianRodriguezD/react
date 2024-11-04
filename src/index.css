@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Mate SC', serif;
+  color: var(--pr11-color-6);
+}
+
+:root {
+  --pr11-color-1: #ffb300;
+  --pr11-color-2: #ff6e00;
+  --pr11-color-3: #d54215;
+  --pr11-color-4: #c72929;
+  --pr11-color-5: #000000;
+  --pr11-color-6: #ffffff;
+}
+body {
+  background-image: url(https://img.yugioh-card.com/eu/wp-content/themes/yugioh/images/hieroglyphs-bg.png);
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.57); /* Fondo oscuro con opacidad */
+  background-blend-mode: overlay; /* Aplica el color semi-transparente */
+  position: relative;
+}
